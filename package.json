@@ -21,6 +21,10 @@
     "type": "git",
     "url": "https://github.com/sethbergman/redux-apollo-flow.git"
   },
+  "engines": {
+    "node": "8.1.x",
+    "npm": "5.4.1"
+  },
   "bugs": "https://github.com/sethbergman/redux-apollo-flow/issues",
   "scripts": {
     "clean:build": "rimraf build",
