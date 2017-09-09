@@ -1,5 +1,5 @@
-const SENTRY_KEY = '488193c1894241789631f5a36188e3a5';
-const SENTRY_APP = '96144';
+const SENTRY_KEY = 'config.SENTRY_KEY';
+const SENTRY_APP = 'congig.SENTRY_APP';
 export const SENTRY_URL = `https://${SENTRY_KEY}@sentry.io/${SENTRY_APP}`;
 
 export function logException(ex, context) {
