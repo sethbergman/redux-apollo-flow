@@ -1,5 +1,4 @@
-React + Redux w/ ES6 and Flow Types / Prettier
-----
+## React + Redux w/ ES6 and Flow Types / Prettier
 
 **:tada: A Completely updated version of my initial boilerplate :rocket:**
 
@@ -39,15 +38,12 @@ Support for Node.js > 5
 
 ### Installation
 
-```
-git clone https://github.com/sethbergman/redux-apollo-flow.git && cd app-name
-```
-- _Install with `yarn` or `npm`_
+`git clone https://github.com/sethbergman/redux-apollo-flow.git && cd app-name`
 
-```
-npm i
-yarn install
-```
+-   _Install with `yarn` or `npm`_
+
+`npm i
+yarn install`
 
 ### White Label It
 
@@ -86,11 +82,9 @@ To run unit tests continuously during development (watch tests), use:
 Sign up for localtunnel.me and you will receive a url, for example `https://tbst.localtunnel.me`.
 You can share your app with anyone as long as your local instance remains active. Any requests will be proxied through your local server at the specified port.
 
-```
-npm install -g localtunnel
+`npm install -g localtunnel
 npm start
-npm run tunnel
-```
+npm run tunnel`
 You will receive a url, for example `https://tbst.localtunnel.me`, that you can share with anyone for as long as your local instance of `lt` remains active. Any requests will be routed to your local service at the specified port.
 
 ## Error Tracking and Insights with Sentry
