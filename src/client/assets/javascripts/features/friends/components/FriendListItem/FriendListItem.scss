@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "open_sansregular";
+  src: url("./fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.friendListItem {
+  display: grid;
+  background: url(./images/icon-user.png) no-repeat left 10px top 10px;
+  font-family: "open_sansregular", sans-serif;
+  padding: 20px 10px 20px 60px;
+  background-color: white;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.friendInfos {
+  flex: 1 2 auto;
+}
+
+.friendInfos span {
+  font-weight: inherit;
+}
+
+.friendActions {
+  flex: auto;
+  datalist: friendListItem;
+}
+
+.btnAction, .btnAction:active, .btnAction:focus, .btnAction:hover {
+  margin: 1rem;
+  width: auto;
+  height: auto;
+  color: #5C75B0;
+}
+
+button:focus {
+  outline: 0 !important;
+}
