@@ -6,29 +6,30 @@ A boilerplate using the power and simplicity of React, Redux, Webpack 2 + HMR, a
 
 The provided boilerplate is powered by the following technology stack:
 
--   [x][react](https://facebook.github.io/react/) and [JSX](https://facebook.github.io/jsx/) — a virtual DOM JavaScript library for rendering UI.  It's about rendering view as a function of state, making JavaScript-driven UI declarative the way HTML is declarative.
--   [x][redux](http://redux.js.org/) — an incredibly simple way of modelling your data app state, with great community support
--   [x][webpack 2](https://gist.github.com/sokra/27b24881210b56bbaff7) and [dev middleware](https://github.com/webpack/webpack-dev-middleware) — client-side module builder and module loader
--   [x][react hot loader 3](https://github.com/gaearon/react-hot-boilerplate/pull/61) — combines the best of React Hot Loader and React Transform and fixes some [long-standing issues](https://twitter.com/dan_abramov/status/722040946075045888)
--   [ ][react router v3](https://github.com/reactjs/react-router/blob/next/CHANGES.md) — to allow [dynamic routing](https://github.com/reactjs/react-router/blob/master/docs/guides/DynamicRouting.md)
--   [x][react router redux](https://github.com/reactjs/react-router-redux) — simple bindings to keep React Router and Redux in sync
--   [x][reselect](https://github.com/reactjs/reselect) — provides a way to access Redux state in components and build composable selectors that are automatically memoized
--   [x][flow](https://flowtype.org/docs/getting-started.html) — static type checker for JavaScript aimed at catching common bugs in JavaScript programs.
--   [x]The flow type annotations get ripped out of the source by the webpack build step. You have no obligation to use flow within your code and can            uninstall `flow-bin` without breaking the project.
--   [x][npm](https://www.npmjs.com/) — package manager and task runner
--   [x][babel 6](http://babeljs.io/) — transpiler from ES6 / JSX to ES5
--   [x][postcss](http://postcss.org/) — ecosystem of custom plugins and tools aimed at transforming extended syntaxes and features into modern, browser-friendly CSS
--   [x][css modules](https://github.com/css-modules/css-modules) — guarantee that all the styles for a single component, designed to fix the problem of the global scope in CSS
--   [x][redux devtools](https://github.com/gaearon/redux-devtools) — a live-editing environment for your Redux apps (and as a [browser extension](https://github.com/zalmoxisus/redux-devtools-extension))
--   [x][webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard) — CLI dashboard for your Webpack dev server
--   [ ][react intl](https://github.com/yahoo/react-intl) — internationalization for React projects
--   [x][eslint](http://eslint.org/docs/user-guide/configuring) — reporter for syntax and style issues
--   [x][eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) & [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype) — additional React/Flow type specific linting rules for ESLint
--   [x][sass](http://sass-lang.com/) — compiler of CSS styles with variables, mixins, and more
--   [x][mocha](https://mochajs.org/) — well-known and flexible test framework that you can use to run your JavaScript tests on the server or in the browser
--   [ ][enzyme](http://airbnb.io/enzyme/) — makes unit testing React components an absolute pleasure
--   [x][chai](http://chaijs.com/) — BDD assertion library that works along with `Mocha`
--   [x][sentry](https://sentry.io/) — real-time error tracking for your app
+-   [x] [react](https://facebook.github.io/react/) and [JSX](https://facebook.github.io/jsx/) — a virtual DOM JavaScript library for rendering UI.  It's about rendering view as a function of state, making JavaScript-driven UI declarative the way HTML is declarative.
+-   [x] [redux](http://redux.js.org/) — an incredibly simple way of modelling your data app state, with great community support
+-   [x] [webpack 2](https://gist.github.com/sokra/27b24881210b56bbaff7) and [dev middleware](https://github.com/webpack/webpack-dev-middleware) — client-side module builder and module loader
+-   [x] [react hot loader 3](https://github.com/gaearon/react-hot-boilerplate/pull/61) — combines the best of React Hot Loader and React Transform and fixes some [long-standing issues](https://twitter.com/dan_abramov/status/722040946075045888)
+-   [x] [react router v3](https://github.com/reactjs/react-router/blob/next/CHANGES.md) — to allow [dynamic routing](https://github.com/reactjs/react-router/blob/master/docs/guides/DynamicRouting.md)
+
+-   [x] [react router redux](https://github.com/reactjs/react-router-redux) — simple bindings to keep React Router and Redux in sync
+-   [x] [reselect](https://github.com/reactjs/reselect) — provides a way to access Redux state in components and build composable selectors that are automatically memoized
+-   [x] [flow](https://flowtype.org/docs/getting-started.html) — static type checker for JavaScript aimed at catching common bugs in JavaScript programs.
+-   [x] The flow type annotations get ripped out of the source by the webpack build step. You have no obligation to use flow within your code and can            uninstall `flow-bin` without breaking the project.
+-   [x] [npm](https://www.npmjs.com/) — package manager and task runner
+-   [x] [babel 6](http://babeljs.io/) — transpiler from ES6 / JSX to ES5
+-   [x] [postcss](http://postcss.org/) — ecosystem of custom plugins and tools aimed at transforming extended syntaxes and features into modern, browser-friendly CSS
+-   [x] [css modules](https://github.com/css-modules/css-modules) — guarantee that all the styles for a single component, designed to fix the problem of the global scope in CSS
+-   [x] [redux devtools](https://github.com/gaearon/redux-devtools) — a live-editing environment for your Redux apps (and as a [browser extension](https://github.com/zalmoxisus/redux-devtools-extension))
+-   [x] [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard) — CLI dashboard for your Webpack dev server
+-   [ ] [react intl](https://github.com/yahoo/react-intl) — internationalization for React projects
+-   [x] [eslint](http://eslint.org/docs/user-guide/configuring) — reporter for syntax and style issues
+-   [x] [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) & [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype) — additional React/Flow type specific linting rules for ESLint
+-   [x] [sass](http://sass-lang.com/) — compiler of CSS styles with variables, mixins, and more
+-   [x] [mocha](https://mochajs.org/) — well-known and flexible test framework that you can use to run your JavaScript tests on the server or in the browser
+-   [ ] [enzyme](http://airbnb.io/enzyme/) — makes unit testing React components an absolute pleasure
+-   [x] [chai](http://chaijs.com/) — BDD assertion library that works along with `Mocha`
+-   [x] [sentry](https://sentry.io/) — real-time error tracking for your app
 
 ## Getting Started
 
