@@ -17,7 +17,7 @@ compiler.apply(new DashboardPlugin());
 const host = process.env.HOST || 'localhost';
 const port = process.env.PORT || 3000;
 
-expressServer.use(OpticsAgent.middleware());
+// express.use(OpticsAgent.middleware());
 
 function log() {
   arguments[0] = '\nWebpack: ' + arguments[0];
