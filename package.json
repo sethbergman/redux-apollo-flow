@@ -103,7 +103,7 @@
     "express": "4.15.4",
     "lodash": "4.17.4",
     "raven-js": "3.17.0",
-    "react": "15.6.1",
+    "react": "16.0.0",
     "react-dom": "15.6.1",
     "react-hot-loader": "3.0.0-beta.2",
     "react-redux": "5.0.6",
