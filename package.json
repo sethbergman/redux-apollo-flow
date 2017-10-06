@@ -74,7 +74,7 @@
     "jquery": "3.2.1",
     "jscs": "3.0.7",
     "jsdom": "11.2.0",
-    "mocha": "3.5.3",
+    "mocha": "4.0.1",
     "node-sass": "4.5.3",
     "postcss-loader": "2.0.6",
     "prettier": "1.7.0",
