@@ -75,7 +75,7 @@
     "jscs": "3.0.7",
     "jsdom": "11.2.0",
     "mocha": "3.5.3",
-    "node-sass": "4.5.3",
+    "node-sass": "4.7.1",
     "postcss-loader": "2.0.6",
     "prettier": "1.7.0",
     "prettier-webpack-plugin": "0.2.2",
